@@ -255,8 +255,8 @@ eader .container nav ul li.Srv ul {
 
 .landing a {
   color: white;
-  background-color: #89682b;
-  border: 1px solid #89682b;
+  background-color: #2a9120;
+  border: 1px solid #2a9120;
   transition: 0.3s;
 }
 .landing a:hover {
@@ -305,6 +305,34 @@ eader .container nav ul li.Srv ul {
   font-size: 19px;
   color: var(--main-color);
   font-weight: normal;
+}
+@media (min-width: 991px) {
+  .imgs-section .content .caption a {
+    position: absolute;
+    left: 20px;
+    bottom: 24px;
+    color: #fff;
+    background-color: #2a9120;
+    border-radius: 20px;
+    padding: 14px;
+    border: 1px solid #2a9120;
+  }
+}
+@media (max-width: 990px) {
+  .imgs-section .content .caption a {
+    position: absolute;
+    left: 113px;
+    bottom: 21px;
+    color: #fff;
+    background-color: #2a9120;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #2a9120;
+  }
+}
+.imgs-section .content .caption a:hover {
+  background: none;
+  color: #000;
 }
 /* End Img-Section */
 /* Start About-Page */
@@ -581,5 +609,4 @@ eader .container nav ul li.Srv ul {
 .end-footer a:hover {
   color: #fff;
 }
-
 /* End Contact */
