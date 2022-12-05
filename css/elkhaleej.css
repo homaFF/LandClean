@@ -585,7 +585,7 @@ eader .container nav ul li.Srv ul {
   }
 }
 .footer-content .contacts .contact-box i {
-  transition: 0.5s;
+  transition: 0.2s;
   cursor: pointer;
 }
 .footer-content .contacts .contact-box i:hover {
