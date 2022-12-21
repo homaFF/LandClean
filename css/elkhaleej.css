@@ -498,7 +498,7 @@ eader .container nav ul li.Srv ul {
 /* End Magazzine */
 /* Start Contact */
 .Footer {
-  padding: 50px 0;
+  padding: 50px 0 0;
 }
 
 .footer-content .contacts .contact-box .text a {
@@ -508,28 +508,7 @@ eader .container nav ul li.Srv ul {
   color: var(--main-color);
 }
 @media (min-width: 992px) {
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    height: 400px;
-    padding: 40px;
-    align-items: center;
-  }
-  .footer-content .map {
-    width: 50%;
-    height: 100%;
-    text-align: center;
-  }
-  .footer-content .map iframe {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
   .footer-content .contacts {
-    height: 100%;
-    flex: 1;
     background-color: #eee;
     border-left: 4px solid var(--main-color);
   }
@@ -545,29 +524,7 @@ eader .container nav ul li.Srv ul {
   }
 }
 @media (max-width: 991px) {
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    height: 400px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .footer-content .map {
-    height: 100%;
-    text-align: center;
-    margin-top: 30px;
-    width: 100%;
-  }
-  .footer-content .map iframe {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
   .footer-content .contacts {
-    height: 100%;
-    flex: 1;
     width: 100%;
     background-color: #eee;
     border-bottom: 4px solid var(--main-color);
@@ -595,9 +552,7 @@ eader .container nav ul li.Srv ul {
   background-color: var(--main-color);
   padding: 10px;
   text-align: center;
-  position: relative;
   font-size: 10px;
-  bottom: -134px;
 }
 .end-footer a {
   font-size: 23px;
@@ -608,5 +563,11 @@ eader .container nav ul li.Srv ul {
 }
 .end-footer a:hover {
   color: #fff;
+}
+.footer-content .contacts .contact-box:nth-child(1) {
+  margin-top: 40px;
+}
+.footer-content .contacts {
+  padding: 16px;
 }
 /* End Contact */
